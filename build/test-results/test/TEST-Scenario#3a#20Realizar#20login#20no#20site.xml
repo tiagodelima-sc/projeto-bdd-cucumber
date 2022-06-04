@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Realizar login no site" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-06-04T18:11:52" hostname="DESKTOP-9D4SGNT" time="1.189">
+  <properties/>
+  <testcase name="Given que acesso o conexaoQA" classname="Scenario: Realizar login no site" time="0.0"/>
+  <testcase name="And clico no login" classname="Scenario: Realizar login no site" time="0.0"/>
+  <testcase name="When coloco &quot;usuario&quot; e &quot;senha&quot;" classname="Scenario: Realizar login no site" time="0.0"/>
+  <testcase name="Then sera exibido a tela de dashboard" classname="Scenario: Realizar login no site" time="0.0"/>
+  <testcase name="And o botao de criar perfil estara sendo exibido" classname="Scenario: Realizar login no site" time="0.0"/>
+  <testcase name="And visualizo a tela de criacao do perfil" classname="Scenario: Realizar login no site" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Realizar login no site" time="5.119"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38406
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 04, 2022 3:11:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>

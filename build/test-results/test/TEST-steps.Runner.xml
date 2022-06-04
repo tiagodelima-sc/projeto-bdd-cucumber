@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="steps.Runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-9D4SGNT" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Realizar login com cadastro ja criado
+
+  Scenario: Realizar login no site                   ?[90m# Login.feature:2?[0m
+    ?[32mGiven ?[0m?[32mque acesso o conexaoQA?[0m                     ?[90m# Login.queAcessoOConexaoQA()?[0m
+    ?[32mAnd ?[0m?[32mclico no login?[0m                               ?[90m# Login.clicoNoLogin()?[0m
+    ?[32mWhen ?[0m?[32mcoloco "?[0m?[32m?[1musuario?[0m?[32m" e "?[0m?[32m?[1msenha?[0m?[32m"?[0m                  ?[90m# Login.colocoE(String,String)?[0m
+    ?[32mThen ?[0m?[32msera exibido a tela de dashboard?[0m            ?[90m# Login.seraExibidoATelaDeDashboard()?[0m
+    ?[32mAnd ?[0m?[32mo botao de criar perfil estara sendo exibido?[0m ?[90m# Login.oBotaoDeCriarPerfilEstaraSendoExibido()?[0m
+    ?[32mAnd ?[0m?[32mvisualizo a tela de criacao do perfil?[0m        ?[90m# Login.visualizoATelaDeCriacaoDoPerfil()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+6 Steps (?[32m6 passed?[0m)
+0m5,110s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
